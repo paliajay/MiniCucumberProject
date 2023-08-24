@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="17.332" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Medunna Room Creation" name="Send Message - Example #1.1" time="17.021">
+<system-out><![CDATA[
+Given user navigates to "https://medunna.com"...............................passed
+When click on user icon.....................................................passed
+And click on sign in link...................................................passed
+And enter username..........................................................passed
+And enter password..........................................................passed
+And click on sign in submit button..........................................passed
+When click on itemsAndTitles link...........................................passed
+And click on messages option................................................passed
+And click on create a new message link......................................passed
+And enter name "John".......................................................passed
+And enter Email "john@doe.com"..............................................passed
+And enter subject "Hello"...................................................passed
+And enter message "Hi dear friend. This is for cucumber practice"...........passed
+And click on save submit button.............................................passed
+Then verify alet message contains A new Message is created..................passed
+And close the application...................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
